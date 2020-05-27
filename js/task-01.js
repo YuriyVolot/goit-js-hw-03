@@ -1,9 +1,18 @@
-const logItems = function (array) {
-    for (const index of array) {
-        let number = array.indexOf(index);
-        console.log(`${number + 1} - ${index}`);
-    }
+'use strict';
+
+const user = {
+    name: 'Mango',
+    age: 20,
+    hobby: 'html',
+    premium: true,
 };
 
-logItems(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']);
-logItems([5, 10, 15, 20, 25, 30, 35, 40, 45, 50]);
+user.mood = 'happy';
+user.hobby = 'skydiving';
+user.premium = 'false';
+
+const keys = Object.keys(user);
+
+for (const key of keys) {
+    console.log(`${key}: ${user[key]}`);
+}

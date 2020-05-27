@@ -2,7 +2,7 @@ body {
     font-family: 'Mukta', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    color: green;
+    color: teal;
 }
 
 h1 {
@@ -26,10 +26,10 @@ h2 {
 }
 .homework-link {
     text-decoration: none;
-    color: orangered;
+    color: royalblue;
     padding-left: 5px;
 }
 .homework-link:hover,
 .homework-link:focus {
-    color: royalblue;
+    color: orangered;
 }
